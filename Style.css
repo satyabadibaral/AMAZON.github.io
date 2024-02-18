@@ -1,0 +1,242 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    height:65px;
+    width:100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+/**nav bar box1 **/
+.nav-logo{
+    height:60px;
+    width: 135px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:60px;
+    width: 135px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/** nav bar box2 **/
+.nav-add{
+    color: white;
+    height:60px;
+   padding-top: 10px;
+}
+.add-first{
+    font-size: 0.85rem;
+    margin-left:15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/** nav bar box3 **/
+.nav-search{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+.search-select{
+    width: 50px;
+    height: 40px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: rgb(255, 174, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/** nav bar box4 **/
+.nav-singin{
+    color: white;
+    height:60px;
+   padding-top: 10px;
+}
+.first{
+    font-size:0.8rem;
+    
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/** nav bar box5 **/
+
+.nav-return{
+    color: white;
+    height:60px;
+   padding-top: 10px;
+}
+
+/** navbar box6 **/
+
+.nav-cart{
+    color: white;
+    height:60px;
+   padding-top: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/** panel **/
+.panel{
+    color: white;
+    height: 45px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#131921;
+
+}
+.panel-menu{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 1.5rem;
+    margin:5px;
+}
+.panel-op{
+    width: 80%;
+}
+.panel-menu p{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.panel-op p{
+    display: inline;
+    padding: 5px;
+}
+.panel-shop{
+    padding: 5px;
+}
+
+/***hero-section***/
+
+.hero-section{
+    background: url("hero_image.jpg");
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-msg{
+    width: 80%;
+    background-color: white;
+    padding:10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hero-msg a{
+    color: #007185;
+
+}
+
+/**shope-section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e2e7e6;
+}
+.box{
+    background-color: white;
+    width: 23%;
+    height: 400px;
+    margin-top: 15px;
+    
+}
+.box-container{
+    margin-top: 10px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.box-img{
+    height: 300px;
+    
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.box-container p {
+    color: #007185;
+}
+/** footer-section**/
+
+.foot-panel1{
+    margin-top: 10px;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+}
+.foot-panel2
+{
+    color: white;
+    background-color:#222f3d;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    height: 300px;
+}
+ul p{
+    font-weight:800;
+}
+ul a
+{
+    
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
